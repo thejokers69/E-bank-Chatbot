@@ -1,6 +1,21 @@
 # E-Bank Chatbot
 
-E-Bank Chatbot is a project aimed at developing a web application to facilitate interactions with a virtual bank via an intelligent chatbot. This project combines a Java backend with Spring Boot and a modern frontend using technologies like TypeScript and Vite.
+E-Bank Chatbot is a project aimed at developing a web application to facilitate interactions with a virtual bank via an intelligent chatbot. This project combines a Java backend with Spring Boot and a TypeScript frontend with Vite and React.
+
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Main Content](#main-content)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+- [Important Files and Folders](#important-files-and-folders)
+- [Commands Used](#commands-used)
+  - [Git Initialization](#git-initialization)
+- [Technologies Used](#technologies-used)
+- [How to Start the Project](#how-to-start-the-project)
+- [Prerequisites](#prerequisites)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
 
 ## Project Structure
 
@@ -14,7 +29,6 @@ The project is organized into two main parts:
 - AI services for managing chatbot interactions.
 - Data management with JSON files and dynamic loading.
 - REST API for communication with the frontend.
-
 
 ### Frontend
 - Automatic generation of TypeScript files from backend endpoints.
@@ -41,18 +55,18 @@ git commit -m "Initial commit for E-Bank-Chatbot"
 git push -f origin master
 ```
 
-### Technologies Used
-Backend
+## Technologies Used
+### Backend
 - Java
 - Spring Boot
 - Maven
 
-Frontend
+### Frontend
 - TypeScript
 - Vite
 - React
 
-Miscellaneous Tools
+### Miscellaneous Tools
 - Docker and Docker Compose
 - IntelliJ IDEA for development
 
@@ -83,5 +97,16 @@ npm run dev
 docker-compose up
 ```
 
-## Author: Mohamed Lakssir 2ACI Info
-```
+## Prerequisites
+- Java 11 or higher
+- Node.js 14 or higher
+- Docker (optional)
+
+## Contributing
+Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Author
+Mohamed Lakssir 2ACI Info
