@@ -1,26 +1,19 @@
+# Node modules
 node_modules
-HELP.md
+
+# Maven target directory
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
+# IntelliJ IDEA
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -30,5 +23,26 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+# Visual Studio Code
 .vscode/
+
+# Vaadin generated files
+src/main/frontend/generated/
+src/main/frontend/generated-flow-imports.d.ts
+src/main/frontend/generated-flow-imports.js
+src/main/frontend/generated-flow-webcomponent-imports.js
+src/main/frontend/generated-file-list.txt
+src/main/frontend/theme-my-theme.components.generated.js
+src/main/frontend/theme-my-theme.generated.js
+src/main/frontend/theme-my-theme.global.generated.js
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+HELP.md
+package-lock.json
