@@ -6,7 +6,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/src/main/resources/application.properties
 # IntelliJ IDEA
 .idea
 *.iws

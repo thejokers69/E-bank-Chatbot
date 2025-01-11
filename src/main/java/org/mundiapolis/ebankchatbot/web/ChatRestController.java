@@ -9,11 +9,13 @@ public class ChatRestController {
     private ChatAiService chatAiService;
 
     public ChatRestController(ChatAiService chatAiService){
+
         this.chatAiService = chatAiService;
     }
 
     @GetMapping("/ask")
     public String ask(@RequestParam String question){
+
         return chatAiService.ragChat(question);
     }
 }
