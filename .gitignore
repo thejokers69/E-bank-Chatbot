@@ -46,3 +46,15 @@ Thumbs.db
 # Other
 HELP.md
 package-lock.json
+
+# Spring Tool Suite (STS)
+/.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Environment files
+.env
