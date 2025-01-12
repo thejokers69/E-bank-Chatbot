@@ -1,6 +1,6 @@
 # E-Bank Chatbot
 
-E-Bank Chatbot is a project aimed at developing a web application to facilitate interactions with a virtual bank via an intelligent chatbot. This project combines a Java backend with Spring Boot and a TypeScript frontend with Vite and React.
+E-Bank Chatbot is a project aimed at developing a web application to facilitate interactions with a virtual bank via an intelligent chatbot. This project combines a Java backend with Spring Boot an[...]
 
 ## Table of Contents
 - [Project Structure](#project-structure)
@@ -14,6 +14,7 @@ E-Bank Chatbot is a project aimed at developing a web application to facilitate 
 - [Technologies Used](#technologies-used)
 - [How to Start the Project](#how-to-start-the-project)
 - [Prerequisites](#prerequisites)
+- [Database Configuration](#database-configuration)
 - [Contributing](#contributing)
 - [License](#license)
 - [Author](#author)
@@ -47,10 +48,10 @@ The project is organized into two main parts:
 
 ## Screenshots
 ### Home Page 
-![Home Page](Capture/HomePage.png)
+![Home Page](Captures/HomePage.png)
 
 ### Chatbot Page
-![Chatbot Page](Capture/ChatbotPage.png)
+![Chatbot Page](Captures/ChatBotPage.png)
 
 ### Database Screenshot
 ![ScreenshotdeDb-Postgresl.png](Captures/ScreenshotdeDb-Postgresl.png)
@@ -58,6 +59,7 @@ The project is organized into two main parts:
 ### Project Tree 
 ![Project Tree Part 1](Captures/Tree1.png)
 ![Project Tree Part 2](Captures/Tree2.png)
+
 ## Commands Used
 
 ### Git Initialization
@@ -115,6 +117,79 @@ docker-compose up
 - Java 11 or higher
 - Node.js 14 or higher
 - Docker (optional)
+
+## Database Configuration
+
+To set up the PostgreSQL database for the E-Bank Chatbot project, follow these steps:
+
+### Prerequisites
+- Ensure you have PostgreSQL installed and running on your system.
+- Have access to a PostgreSQL client (e.g., psql CLI or a GUI tool like pgAdmin).
+
+### Instructions to Create the Database
+1. Login to PostgreSQL:
+Use your PostgreSQL user account to log in. Replace your-username with your PostgreSQL username:
+```bash
+psql -U your-username
+```
+
+2. Create a Database:
+Run the following command to create a new database for the project:
+```sql
+CREATE DATABASE cv_store;
+```
+
+3. Create a User:
+Create a new PostgreSQL user with a password. Replace thejoker with the desired username and sexcigarez2 with a secure password:
+```sql
+CREATE USER admin WITH PASSWORD 'password';
+```
+
+4. Grant Permissions:
+Grant all privileges on the database to the created user:
+```sql
+GRANT ALL PRIVILEGES ON DATABASE cv_store TO admin;
+```
+
+5. Connect to the Database:
+Use the following command to switch to the newly created database:
+```bash
+\c cv_store
+```
+
+6. Create Tables (Optional):
+If you need to manually create the tables (e.g., Person table), use SQL scripts similar to the following:
+```sql
+CREATE TABLE person (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE
+);
+```
+
+### Updating application.properties
+
+Ensure the application.properties file in the project is correctly configured to connect to your PostgreSQL database. Here’s an example configuration:
+```properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/cv_store
+spring.datasource.username=admin
+spring.datasource.password=password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+```
+
+### Testing the Connection
+
+Once the database is set up and the application properties are updated, test the connection by running the backend service:
+```bash
+./mvnw spring-boot:run
+```
+
+If the connection is successful, the application will automatically initialize the required tables and data as per the Person entity configuration.
 
 ## Contributing
 Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
