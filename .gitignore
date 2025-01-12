@@ -27,14 +27,14 @@ build/
 .vscode/
 
 # Vaadin generated files
-src/main/frontend/generated/
-src/main/frontend/generated-flow-imports.d.ts
-src/main/frontend/generated-flow-imports.js
-src/main/frontend/generated-flow-webcomponent-imports.js
-src/main/frontend/generated-file-list.txt
-src/main/frontend/theme-my-theme.components.generated.js
-src/main/frontend/theme-my-theme.generated.js
-src/main/frontend/theme-my-theme.global.generated.js
+backend/src/src/main/frontend/generated/
+backend/src/src/main/frontend/generated-flow-imports.d.ts
+backend/src/src/main/frontend/generated-flow-imports.js
+backend/src/src/main/frontend/generated-flow-webcomponent-imports.js
+backend/src/src/main/frontend/generated-file-list.txt
+backend/src/src/main/frontend/theme-my-theme.components.generated.js
+backend/src/src/main/frontend/theme-my-theme.generated.js
+backend/src/src/main/frontend/theme-my-theme.global.generated.js
 
 # Logs
 *.log
