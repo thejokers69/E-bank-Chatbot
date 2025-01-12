@@ -62,6 +62,7 @@ public class RagDataLoader {
             TextSplitter textSplitter = new TokenTextSplitter();
             List<Document> chunks = textSplitter.split(documents);
             vectorStore.add(chunks);
+            System.out.println("Vector store initialized successfully");
         }
 
     }

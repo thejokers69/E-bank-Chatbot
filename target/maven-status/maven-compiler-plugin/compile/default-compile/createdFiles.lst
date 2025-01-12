@@ -1,0 +1,9 @@
+org/mundiapolis/ebankchatbot/services/PersonService.class
+org/mundiapolis/ebankchatbot/web/ChatRestController.class
+org/mundiapolis/ebankchatbot/entities/Person$PersonBuilder.class
+org/mundiapolis/ebankchatbot/services/ChatAiService.class
+org/mundiapolis/ebankchatbot/EBankChatbotApplication.class
+org/mundiapolis/ebankchatbot/PersonRepository.class
+org/mundiapolis/ebankchatbot/entities/Person.class
+org/mundiapolis/ebankchatbot/services/package-info.class
+org/mundiapolis/ebankchatbot/config/RagDataLoader.class

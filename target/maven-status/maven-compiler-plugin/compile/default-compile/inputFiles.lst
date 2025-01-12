@@ -1,0 +1,8 @@
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/src/main/java/org/mundiapolis/ebankchatbot/EBankChatbotApplication.java
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/src/main/java/org/mundiapolis/ebankchatbot/PersonRepository.java
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/src/main/java/org/mundiapolis/ebankchatbot/config/RagDataLoader.java
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/src/main/java/org/mundiapolis/ebankchatbot/entities/Person.java
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/src/main/java/org/mundiapolis/ebankchatbot/services/ChatAiService.java
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/src/main/java/org/mundiapolis/ebankchatbot/services/PersonService.java
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/src/main/java/org/mundiapolis/ebankchatbot/services/package-info.java
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/src/main/java/org/mundiapolis/ebankchatbot/web/ChatRestController.java

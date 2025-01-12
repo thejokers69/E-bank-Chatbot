@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/Users/thejoker/IdeaProjects/E-Bank-Chatbot/./src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/thejoker/IdeaProjects/E-Bank-Chatbot/./src/main/frontend/generated/jar-resources",
+  "staticOutput": "/Users/thejoker/IdeaProjects/E-Bank-Chatbot/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/Users/thejoker/IdeaProjects/E-Bank-Chatbot/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/Users/thejoker/IdeaProjects/E-Bank-Chatbot/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/Users/thejoker/IdeaProjects/E-Bank-Chatbot/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/thejoker/IdeaProjects/E-Bank-Chatbot/target/dev-bundle/config",
+  "jarResourcesFolder": "/Users/thejoker/IdeaProjects/E-Bank-Chatbot/./src/main/frontend/generated/jar-resources",
+  "themeName": "my-theme",
+  "clientServiceWorkerSource": "/Users/thejoker/IdeaProjects/E-Bank-Chatbot/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

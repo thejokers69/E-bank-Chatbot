@@ -8,6 +8,7 @@ E-Bank Chatbot is a project aimed at developing a web application to facilitate 
   - [Backend](#backend)
   - [Frontend](#frontend)
 - [Important Files and Folders](#important-files-and-folders)
+- [Screenshots](#screenshots)
 - [Commands Used](#commands-used)
   - [Git Initialization](#git-initialization)
 - [Technologies Used](#technologies-used)
@@ -44,6 +45,19 @@ The project is organized into two main parts:
 - `prompts/`: Prompt templates for chatbot AI management.
 - `store/`: Persistent data storage in JSON files.
 
+## Screenshots
+### Home Page 
+![Home Page](Capture/HomePage.png)
+
+### Chatbot Page
+![Chatbot Page](Capture/ChatbotPage.png)
+
+### Database Screenshot
+![ScreenshotdeDb-Postgresl.png](Captures/ScreenshotdeDb-Postgresl.png)
+
+### Project Tree 
+![Project Tree Part 1](Captures/Tree1.png)
+![Project Tree Part 2](Captures/Tree2.png)
 ## Commands Used
 
 ### Git Initialization

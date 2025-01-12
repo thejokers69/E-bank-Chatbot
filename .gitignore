@@ -1,8 +1,8 @@
 # Node modules
 node_modules
-
+/Users/thejoker/IdeaProjects/E-Bank-Chatbot/node_modules
 # Maven target directory
-target/
+backend/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
