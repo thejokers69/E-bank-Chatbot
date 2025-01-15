@@ -8,7 +8,6 @@ import org.springframework.ai.vectorstore.SimpleVectorStore;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.Resource;
 import org.springframework.jdbc.core.simple.JdbcClient;
 import org.springframework.stereotype.Component;
@@ -19,9 +18,9 @@ import java.util.List;
 
 @Component
 public class RagDataLoader {
-    @Value("classpath:/pdfs/MohamedLakssir.pdf")
+    @Value("classpath:/pdfs/AymanSimpleCV.pdf")
     private Resource pdfResource;
-    @Value("store-data-v1.json")
+    @Value("store-data-v2.json")
     private String storeFile;
 
     private JdbcClient jdbcClient;

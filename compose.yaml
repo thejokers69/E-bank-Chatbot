@@ -3,8 +3,8 @@ services:
     image: 'pgvector/pgvector:pg16'
     environment:
       - 'POSTGRES_DB=cv-store'
-      - 'POSTGRES_PASSWORD=sexcigarez2'
-      - 'POSTGRES_USER=thejoker'
+      - 'POSTGRES_PASSWORD=password'
+      - 'POSTGRES_USER=admin'
     labels:
       - "org.springframework.boot.service-connection=postgres"
     ports:

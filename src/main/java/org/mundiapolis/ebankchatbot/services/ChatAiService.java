@@ -18,9 +18,12 @@ import java.util.Map;
 @Service
 public class ChatAiService {
     private ChatClient chatClient;
+
     private VectorStore vectorStore;
     @Value("classpath:/prompts/prompt-template.st")
     private Resource promptResource;
+    
+
 
     public ChatAiService(ChatClient.Builder builder, VectorStore vectorStore){
         this.chatClient = builder.build();
