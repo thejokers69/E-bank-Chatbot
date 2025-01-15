@@ -18,9 +18,9 @@ import java.util.List;
 
 @Component
 public class RagDataLoader {
-    @Value("classpath:/pdfs/AymanSimpleCV.pdf")
+    @Value("classpath:/pdfs/MohamedLakssir.pdf")
     private Resource pdfResource;
-    @Value("store-data-v2.json")
+    @Value("store-data-v1.json")
     private String storeFile;
 
     private JdbcClient jdbcClient;
